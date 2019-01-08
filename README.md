@@ -1,3 +1,9 @@
 # COMSM0010
-Find My Recipe_Cloud Computing Assignment
-#hello world
+Cloud Computing Programming Assignment - Find My Recipe
+
+This is a programming assignment project
+
+Project Title
+Find My Recipes
+
+Project Description
