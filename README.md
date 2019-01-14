@@ -24,9 +24,11 @@ Step by step installation guide
 Sample test instructions
 
 •	For the purpose of this project, AWS Dynamodb has been populated with the below data
+
 Ingredient 1 data : Rice, Onion, Olive Oil, Potato, Bread
 Ingredient 2 data : Chicken, Cheese, Peppercorn
 Ingredient 3 data : Egg, Tomato, Steak
+
 •	The app will list recipes for any of the above combinations
 
 The Application can also be tested on Android emulator applications.
