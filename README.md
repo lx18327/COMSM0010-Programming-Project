@@ -34,7 +34,7 @@ Sample test instructions
 
 The app will list recipes for any of the above combinations
 
-The Application code-base has been compressed and stored under findmyrecipe.zip in this folder. 
+The Application code-base has been compressed and stored under Find My Recipe.zip in this folder. 
 
 The application can also be tested on Android emulator applications.
 
