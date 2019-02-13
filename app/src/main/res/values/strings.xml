@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Find My Recipe</string>
+    <string name="facebook_app_id">328119971363016</string>
+    <string name="fb_login_protocol_scheme">fb328119971363016</string>
+    <string name="item_1">Home</string>
+    <string name="item_2">Fav</string>
+    <string name="item_3">LogOut</string>
+    <string name="aws_region">us-east-1</string>
+</resources>

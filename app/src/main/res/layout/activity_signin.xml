@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?><RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height = "match_parent"
+
+    android:background="@drawable/bb"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+    <TextView android:text = "Sign In" android:layout_width="wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/textview"
+        android:textSize = "30dp"
+        android:textColor="@color/whiteFFFFFF"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal = "true" />
+
+
+    <EditText
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/emailorusername"
+        android:hint = "Email/Username"
+        android:focusable = "true"
+        android:textColorHighlight = "#000000"
+        android:textColorHint = "@color/whiteFFFFFF"
+        android:layout_marginTop = "30dp"
+
+        android:textColor="@color/whiteFFFFFF"
+        android:layout_below = "@+id/imageView"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/password"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/whiteFFFFFF"
+        android:layout_below="@+id/emailorusername"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/editText"
+        android:layout_alignEnd="@+id/editText"
+        android:textColorHint="@color/whiteFFFFFF"
+        android:textColorHighlight="#000000"
+
+        android:hint="Password" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:id="@+id/signIn"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/textview"
+        android:layout_toStartOf="@+id/textview" />
+
+
+    </LinearLayout>
+</RelativeLayout>

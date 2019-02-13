@@ -1,0 +1,43 @@
+{
+  "UserAgent": "MobileHub/1.0",
+  "Version": "1.0",
+  "CredentialsProvider": {
+    "CognitoIdentity": {
+      "Default": {
+        "PoolId": "us-east-2:95b9cc0c-2100-45f6-a9fb-24a6bc272cd6",
+        "Region": "us-east-2"
+      }
+    }
+  },
+  "IdentityManager": {
+    "Default": {}
+  },
+  "CognitoUserPool": {
+    "Default": {
+      "PoolId": "us-east-2_btXS50QXz",
+      "AppClientId": "1hfb4tsg235v3104c6u9a8t2rm",
+      "AppClientSecret": "fsdgqcpomgndo0j8qll7lbe24lffqtsic9b33u9u0d605efhn2t",
+      "Region": "us-east-2"
+    }
+  },
+  "DynamoDBObjectMapper": {
+    "Default": {
+      "Region": "us-east-2"
+    }
+  },
+  "PinpointAnalytics": {
+    "Default": {
+      "AppId": "4bf7f04814ab494b82e0b79d44b08806",
+      "Region": "us-east-1"
+    }
+  },
+  "PinpointTargeting": {
+    "Default": {
+      "Region": "us-east-1"
+    }
+  },
+  "FacebookSignIn": {
+    "AppId": "Quickcook",
+    "Permissions": "public_profile"
+  }
+}

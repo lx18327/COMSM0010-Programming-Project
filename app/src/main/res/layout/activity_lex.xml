@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout tools:context=".GetinputActivity"
+    android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+
+    android:orientation="vertical" android:layout_centerHorizontal="true" android:gravity="center"
+    >
+
+    <TextView android:text = "Hello!!! Welcome to Find my Recipe" android:layout_width="wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/textview"
+        android:textSize = "30dp"
+        android:textColor="@color/whiteFFFFFF"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal = "true" />
+
+    <com.amazonaws.mobileconnectors.lex.interactionkit.ui.InteractiveVoiceView
+        android:layout_height="200dp"
+
+        android:layout_width="200dp" android:id="@+id/voiceinterface" layout="@layout/voice_component"/>
+</LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proceed"
+        android:layout_margin="20dp"
+        android:id="@+id/confirm"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>
